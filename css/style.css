@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1{
+	width: 1200px;
+	margin: auto 10%;
+}
+.box{
+	text-align: center;
+	margin-top: 20%;
+}
+.box a,h1{color: #fff;}
+
+/* page */
+.box2 {
+	height: 70px;
+	background-color: black;
+}
+
+.box2 li{
+	float: left;
+	
+}
+.box2 a{
+	color: #fff;
+	text-decoration: none;
+}
+.box3 a{
+	color: #fff;
+	text-decoration: none;
+}
+.a{margin:auto 10%;font-size: 20px;}
+.box3{
+	position: absolute;
+	background: url(../img/11.jpg) repeat fixed center;
+	height: 500px;
+	width: 1200px;
+	
+}
+.box3 img{
+	height: 500px;
+}
+.box3 h1{
+	position: absolute;
+	margin: 15% 42%;
+	z-index: 10;
+	color: #ffffff;
+	font-size: 45px;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+	width: 150px;
+	text-align: center;
+}
+.box4{
+	margin-top: 510px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 25px;
+	
+}
+.box4 p{
+	
+	margin: 2% auto;
+}
+.box4 img{width: 400px;height: 300px;}
+
+/* page1 */
+.box5{
+	margin-top: 510px;
+}
+.box5-1,.box5-2{
+	float: left;
+	width: 600px;
+}
+.box5-1 img{
+	width: 550px;
+}
