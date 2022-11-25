@@ -1,0 +1,165 @@
+header{
+    font-size:40px;
+
+
+color:antiquewhite;
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin:10px;
+    padding:3px;
+    min-width:1000px;
+    height:996px;
+}
+
+h1{
+    color:antiquewhite;
+    text-align:center;
+    font-family:cursive;
+    
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue;
+}
+h2{
+    text-align:center;
+    font-family:cursive;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+    font-family:fantasy;
+}
+h4{
+    font-family: monospace;
+}
+ul{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.box{
+    border-style:dotted;
+    background-image: url('witch3.jpg');
+    padding:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    
+}
+.box1{
+    float:left;
+    border-style:double;
+    background-image: url('gili.jpg');
+    padding:20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width:250px;
+    height: 300px;
+}
+.box5{
+    float:right;
+    border-style:double;
+    background-image: url('gili.jpg');
+    padding:20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    width:250px;
+    height: 300px;
+}
+
+.witcher_img{
+        width: 400px;
+        height: 200px;
+        border: 1px solid #000;
+        margin-top: 5px;
+        object-fit:cover;
+        position:absolute;
+        left: 600px;
+      }
+.container {
+    column-count: 3;
+    column-width:200px;
+    column-gap: 30px;
+    
+
+    }
+.container1{
+    column-count: 1;
+}
+.container2{
+    column-count: 1;
+    text-align: center;
+}
+.box6{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box2{
+    
+    padding:20px;
+    margin-bottom:10px;
+    margin:30px;
+    border-style: dashed;
+
+    
+}
+.box3{
+    
+    border-style:double;
+    background-image: url('wither2.png');
+    padding: 30px;
+ 
+}
+.box4{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin: 20px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.mydiv{
+    margin:0 auto;
+    width:500px;
+    height:200px;
+}
+.wrapper{
+    display:flex;
+}
+
+.button{
+text-align: center;
+font-family: fantasy;
+font-size: larger;
+line-height:80px;
+vertical-align: middle;
+width:150px;
+height: 80px;
+color: rgb(14, 14, 15);
+border-radius:50px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+background-color: #34689f;
+color: white;
+}
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
